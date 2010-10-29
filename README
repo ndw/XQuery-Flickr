@@ -17,7 +17,8 @@ A few notes:
   You don't like namespaces? Then remove the call to flickr:_fixns().
 
 Docs, etc. to follow. (In the fullness of time, like the next ice age,
-probably. If you have questions, feel free to ask.)
+probably. If you have questions, feel free to ask.) The example in
+default.xqy might be enough to get you started.
 
 --norm
 ndw@nwalsh.com
