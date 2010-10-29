@@ -1,0 +1,23 @@
+Hello,
+
+This repository contains an XQuery implementation of the Flickr API.
+
+A few notes:
+
+* In a rather heavy-handed move, I've simply appropriated
+  http://www.flickr.com/services/api/ as the namespace for this
+  module.
+
+* You'll need to get your own API key, secret, and auth token.
+
+* If you're not using MarkLogic Server, you'll have to provide
+  your own implementation of md5() and http-get().
+
+* I move all of the Flickr responses into the Flickr namespace.
+  You don't like namespaces? Then remove the call to flickr:_fixns().
+
+Docs, etc. to follow. (In the fullness of time, like the next ice age,
+probably. If you have questions, feel free to ask.)
+
+--norm
+ndw@nwalsh.com
